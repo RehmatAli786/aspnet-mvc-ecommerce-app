@@ -23,5 +23,6 @@ namespace eTickets.Models
         public int ProducerId { get; set; }
         [ForeignKey("ProducerId")]
         public required Producer Producers { get; set; }
+        public List<Actor_Movie> Actors_Movies { get; set; }
     }
 }
