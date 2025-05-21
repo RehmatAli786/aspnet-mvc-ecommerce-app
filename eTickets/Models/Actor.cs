@@ -6,7 +6,7 @@ namespace eTickets.Models
     {
         [Key]
         public int Id { get; set; }
-        public required string ActorProfileURL { get; set; }
+        public required string ProfilePictureURL { get; set; }
         public required string FullName { get; set; }
         public required string Bio { get; set; }
 
